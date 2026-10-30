@@ -24,7 +24,6 @@ System	Notes
 COSJ100024+015334	The "COSMOS-Web ring" Lens z = 2.02, source z = 5.10 (spectroscopic), Einstein radius about 0.77". Most thoroughly modeled system.
 COSJ095921+020638	Lensed quad. Lens z = 0.4694, Einstein radius about 0.71".
 COSJ100013+023424	Lens z = 0.890, Einstein radius about 1.45".
-COSJ095914+021219	Lens z about 1.05, Einstein radius about 1.48".
 
 Source redshifts are not published for the last three systems, so a placeholder of z = 2.0 is used for them. This affects the physical interpretation (distances, scaling) rather than the shape of the fit, but results for those systems should be treated as preliminary.
 
