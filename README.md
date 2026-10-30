@@ -21,6 +21,7 @@ Lens systems modeled
 All systems come from the COSMOS-Web Lens Survey (COWLS).
 
 System	Notes
+
 COSJ100024+015334	The "COSMOS-Web ring" Lens z = 2.02, source z = 5.10 (spectroscopic), Einstein radius about 0.77". Most thoroughly modeled system.
 COSJ095921+020638	Lensed quad. Lens z = 0.4694, Einstein radius about 0.71".
 COSJ100013+023424	Lens z = 0.890, Einstein radius about 1.45".
@@ -28,6 +29,7 @@ COSJ100013+023424	Lens z = 0.890, Einstein radius about 1.45".
 Source redshifts are not published for the last three systems, so a placeholder of z = 2.0 is used for them. This affects the physical interpretation (distances, scaling) rather than the shape of the fit, but results for those systems should be treated as preliminary.
 
 Methods
+
 Mass model: isothermal (SIE) profile for the lens galaxy.
 Lens light: Sersic profile (plus an experimental second compact Sersic component to reduce leftover central light after subtraction).
 Source light: parametric Sersic profile.
@@ -36,9 +38,11 @@ Acceleration: JAX, running on GPU where available.
 Color imaging: WCS-aligned false-color composites (F444W / F277W / F150W) built with astropy and reproject.
 
 Results and status
+
 Reconstructions were compared against published results for the COSMOS-Web ring (see References).
 
 References
+
 Nightingale et al. 2025, The COSMOS-Web Lens Survey (COWLS) I: Discovery of >100 high redshift strong lenses in contiguous JWST imaging, MNRAS 543, 203. https://arxiv.org/abs/2503.08777
 Mahler et al. 2025, The COSMOS-Web Lens Survey (COWLS) II: Depth, resolution, and NIR coverage from JWST reveals 17 spectacular lenses, MNRAS Letters 544, L8. https://arxiv.org/abs/2503.08782
 Mercier et al. 2024, The COSMOS-Web ring: in-depth characterization of an Einstein ring lensing system at z~2, A&A 687, A61. https://arxiv.org/abs/2309.15986
